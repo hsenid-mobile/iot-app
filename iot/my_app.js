@@ -1,5 +1,5 @@
 var WebSocket = require('ws');
-var ws = new WebSocket('ws://devspace.hsenidmobile.com:9008/iot/connect?token=<YOUR_TOKEN>');
+var ws = new WebSocket('ws://api.hsenidmobile.com:9008/iot/connect?token=<YOUR_TOKEN>');
 
 ws.on('open', function open() {
     console.log("connected!")
