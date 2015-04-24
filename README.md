@@ -1,4 +1,4 @@
-This is a sample application written in Node.js to talk with IoT device loaded with hSenid Mobile's [Iot-Kit](https://github.com/hsenid-mobile/iot-kit)
+This is a sample application written in Node.js to talk with IoT device loaded with [Iot-Kit](https://github.com/hsenid-mobile/iot-kit)
 
 
 How to Run
