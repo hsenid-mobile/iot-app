@@ -15,9 +15,8 @@ ws.on('message', function (data, flags) {
     if (message.type == 'boot') {
         ws.send(
             JSON.stringify({
-                id: "123456",
                 type: "command",
-                content: "while 1 {if(a0 < 200){print 'level=' a0;}; snooze(1000); };",
+                content: "function schedule {if(a0 < 200){print 'level=' a0;};}",
                 device: message.device
             })
         );
